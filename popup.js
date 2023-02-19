@@ -10,10 +10,7 @@ let sendEl = document.createElement("div");
 let btnEl = document.createElement("button");
 let inptEl = document.createElement("input");
 
-let messages = [
-  { customerId: window.userId, text: "hello, how r u ?" },
-  { customerId: 0, text: "hello, how r u ?" },
-];
+let messages = [];
 
 messages = messages.map((msg) => {
   let cls = msg.customerId ? "right" : "left";
